@@ -17,3 +17,6 @@ https://tecnoblog.net/responde/o-que-e-um-browser/
 VSCode:
 O Visual Studio Code (VSCode) é um ambiente de desenvolvimento integrado (IDE) amplamente utilizado por desenvolvedores web devido à sua rica variedade de recursos e extensões. Com suporte integrado para linguagens de programação como HTML, CSS e JavaScript, o VSCode oferece uma experiência de desenvolvimento intuitiva e eficiente para a criação de aplicativos web. Além disso, o VSCode possui extensões que facilitam a integração com ferramentas de controle de versão como o Git, permitindo que os desenvolvedores gerenciem facilmente o código-fonte de seus projetos web diretamente no ambiente de desenvolvimento. O VSCode também oferece recursos avançados de depuração e integração com navegadores, permitindo que os desenvolvedores depurem e testem suas aplicações web de forma eficaz durante o processo de desenvolvimento. (Relacionado ao tópico 4: Conceitos básicos de programação de computadores)
 https://code.visualstudio.com/
+
+
+Mudança
