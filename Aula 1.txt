@@ -1,0 +1,19 @@
+Python:
+Python é uma linguagem de programação amplamente utilizada no desenvolvimento web devido à sua sintaxe clara e à vasta gama de bibliotecas e frameworks disponíveis. Com sua flexibilidade, Python é uma escolha popular para várias tarefas relacionadas à web, desde a construção de scripts simples até o desenvolvimento de aplicativos web completos. Além disso, o Python é frequentemente utilizado em conjunto com frameworks como Django e Flask para criar aplicativos web robustos e escaláveis, aproveitando os conceitos de arquitetura cliente-servidor e aproveitando os protocolos de comunicação da Internet, como HTTP. (Relacionado ao tópico 10: Conceitos básicos sobre interfaces de usuário dinamicamente adaptáveis)
+https://www.python.org/
+
+Git:
+O Git é uma ferramenta essencial para o desenvolvimento web, permitindo o versionamento eficiente do código-fonte de projetos. Com o Git, os desenvolvedores podem rastrear alterações no código, colaborar com outros membros da equipe e gerenciar diferentes versões do software de forma distribuída. Além disso, o Git é frequentemente integrado a plataformas de hospedagem de código como o GitHub e o GitLab, proporcionando uma maneira conveniente de hospedar repositórios de código e facilitar o trabalho em equipe em projetos web. (Relacionado ao tópico 4: Conceitos básicos de programação de computadores)
+https://git-scm.com/
+
+SQL:
+SQL desempenha um papel fundamental no desenvolvimento web ao lidar com bancos de dados relacionais. Com SQL, os desenvolvedores podem criar, manipular e consultar dados armazenados em bancos de dados, proporcionando uma base sólida para aplicativos web que requerem armazenamento e recuperação de informações. Além disso, a integração entre linguagens de programação como Python e SQL facilita a interação entre a lógica do aplicativo e o banco de dados, permitindo operações eficientes de CRUD (Create, Read, Update, Delete) em aplicativos web. (Relacionado ao tópico 8: Introdução a Bancos de Dados para desenvolvimento web)
+https://blog.betrybe.com/sql/
+
+Navegador (Browser):
+Os navegadores web desempenham um papel crucial no desenvolvimento web, pois são a principal interface entre os usuários e os aplicativos baseados na web. Eles interpretam e exibem conteúdo HTML, CSS e JavaScript, permitindo que os usuários interajam com aplicativos web por meio de uma interface gráfica intuitiva. Além disso, os navegadores modernos oferecem ferramentas de desenvolvimento integradas, como o console do navegador e o inspetor de elementos, que permitem aos desenvolvedores inspecionar, depurar e otimizar o código HTML, CSS e JavaScript de suas aplicações web diretamente no navegador. Essas ferramentas são essenciais para o desenvolvimento responsivo e compatível com vários navegadores. (Relacionado ao tópico 1: Arquitetura da Web)
+https://tecnoblog.net/responde/o-que-e-um-browser/
+
+VSCode:
+O Visual Studio Code (VSCode) é um ambiente de desenvolvimento integrado (IDE) amplamente utilizado por desenvolvedores web devido à sua rica variedade de recursos e extensões. Com suporte integrado para linguagens de programação como HTML, CSS e JavaScript, o VSCode oferece uma experiência de desenvolvimento intuitiva e eficiente para a criação de aplicativos web. Além disso, o VSCode possui extensões que facilitam a integração com ferramentas de controle de versão como o Git, permitindo que os desenvolvedores gerenciem facilmente o código-fonte de seus projetos web diretamente no ambiente de desenvolvimento. O VSCode também oferece recursos avançados de depuração e integração com navegadores, permitindo que os desenvolvedores depurem e testem suas aplicações web de forma eficaz durante o processo de desenvolvimento. (Relacionado ao tópico 4: Conceitos básicos de programação de computadores)
+https://code.visualstudio.com/
