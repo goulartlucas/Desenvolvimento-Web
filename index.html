@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3 DW</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .minha-div {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: red;
+        }
+        .imagem, .video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="minha-div">
+            <h1>Página HTML Aula 3</h1>
+            <p>Este é um parágrafo de texto simples.</p>
+            <p>Este é outro parágrafo de texto simples.</p>
+            <div>
+                <span>Este é um <em>span</em> com algum texto dentro.</span>
+            </div>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul> 
+            <ol>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+            </ol>
+        </div>
+        
+        <!-- Formulário com método GET -->
+        <div class="minha-div">
+            <form action="pagina_get.php" method="get">
+                <label for="campo_nome">Nome:</label>
+                <input type="text" id="campo_nome" name="nome">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        
+        <!-- Formulário com método POST -->
+        <div class="minha-div">
+            <form action="pagina_post.php" method="post">
+                <label for="campo_email">Email:</label>
+                <input type="email" id="campo_email" name="email">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        
+        <!-- Link interno -->
+        <div class="minha-div">
+            <p><a href="#section2">Ir para a Seção 2</a></p>
+        </div>
+        
+        <!-- Link externo -->
+        <div class="minha-div">
+            <p><a href="https://pt.wikipedia.org/wiki/Temporada_do_Clube_de_Regatas_do_Flamengo_de_2019">Ir para Outra Página</a></p>
+        </div>
+        
+        <!-- Elemento del -->
+        <div class="minha-div">
+            <del>Texto deletado</del>
+        </div>
+        
+        <!-- Elemento ins -->
+        <div class="minha-div">
+            <ins>Texto inserido</ins>
+        </div>
+        
+        <!-- Elemento img -->
+        <div class="minha-div">
+            <img class="imagem" src="flamengo.jpg" alt="Imagem de exemplo">
+        </div>
+        
+        <!-- Elemento audio -->
+        <div class="minha-div">
+            <audio controls>
+                <source src="gabigol.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+        
+        <!-- Elemento video -->
+        <div class="minha-div">
+            <video class="video" controls>
+                <source src="gols2019.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+        </div>
+        
+        <!-- Elemento form -->
+        <div class="minha-div">
+            <form action="pagina_form.php" method="post">
+                <label for="campo_texto">Texto:</label>
+                <textarea id="campo_texto" name="texto"></textarea><br>
+                <label for="opcao">Escolha uma opção:</label>
+                <select id="opcao" name="opcao">
+                    <option value="opcao1">Opção 1</option>
+                    <option value="opcao2">Opção 2</option>
+                    <option value="opcao3">Opção 3</option>
+                </select><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        
+        <!-- Elemento button -->
+        <div class="minha-div">
+            <button onclick="alert('Botão clicado!')">Clique-me</button>
+        </div>
+        
+        <!-- Elemento input -->
+        <div class="minha-div">
+            <input type="text" id="campo_input" name="campo_input" placeholder="Digite algo...">
+        </div>
+        
+        <!-- Elemento textarea -->
+        <div class="minha-div">
+            <textarea id="campo_textarea" name="campo_textarea" placeholder="Digite algo..."></textarea>
+        </div>
+        
+        <!-- Elemento select -->
+        <div class="minha-div">
+            <select id="campo_select" name="campo_select">
+                <option value="opcao1">Opção 1</option>
+                <option value="opcao2">Opção 2</option>
+                <option value="opcao3">Opção 3</option>
+            </select>
+        </div>
+        
+        <!-- Seção 2 -->
+        <div class="minha-div">
+            <h2 id="section2">Seção 2</h2>
+            <p>Esta é a segunda seção da página.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
