@@ -1,0 +1,71 @@
+// Exemplo utilizando var
+function exemploVar() {
+    if (true) {
+        var x = 10;
+    }
+    console.log("Exemplo com var:", x); // x é acessível aqui, fora do bloco if
+}
+
+exemploVar(); // Saída: 10
+//console.log(x); // x é undefined aqui, fora do escopo da função
+
+// Exemplo utilizando let
+function exemploLet() {
+    if (true) {
+        let y = 20;
+    }
+    //console.log("Exemplo com let:", y); // y não é acessível aqui, pois está fora do bloco if
+}
+
+exemploLet(); // Retorna um erro: y is not defined
+
+// Exemplo utilizando const
+function exemploConst() {
+    const z = 30;
+    // z = 40; // Isso resultaria em um erro, pois não podemos reatribuir uma constante
+    console.log("Exemplo com const:", z);
+}
+
+exemploConst(); // Saída: 30
+
+--------------------------------------------------------------------------------------------------------------------
+
+// Tamanho do Array
+let arrayTamanho = [1, 2, 3, 4, 5];
+console.log("Tamanho do array:", arrayTamanho.length); // Saída: 5
+
+// Recuperação de Elemento
+let arrayRecuperacao = [10, 20, 30, 40, 50];
+console.log("Elemento na posição 2:", arrayRecuperacao[2]); // Saída: 30
+
+// Inclusão de Elemento
+let arrayInclusao = [1, 2, 3];
+arrayInclusao[3] = 4;
+console.log("Array com elemento incluído:", arrayInclusao); // Saída: [1, 2, 3, 4]
+
+// push()
+let arrayPush = [1, 2, 3];
+arrayPush.push(4);
+console.log("Array com push:", arrayPush); // Saída: [1, 2, 3, 4]
+
+// pop()
+let arrayPop = [1, 2, 3, 4];
+let elementoRemovidoPop = arrayPop.pop();
+console.log("Elemento removido com pop:", elementoRemovidoPop); // Saída: 4
+console.log("Array atualizado com pop:", arrayPop); // Saída: [1, 2, 3]
+
+// shift()
+let arrayShift = [1, 2, 3, 4];
+let elementoRemovidoShift = arrayShift.shift();
+console.log("Elemento removido com shift:", elementoRemovidoShift); // Saída: 1
+console.log("Array atualizado com shift:", arrayShift); // Saída: [2, 3, 4]
+
+// unshift()
+let arrayUnshift = [2, 3, 4];
+arrayUnshift.unshift(1);
+console.log("Array atualizado com unshift:", arrayUnshift); // Saída: [1, 2, 3, 4]
+
+
+
+
+
